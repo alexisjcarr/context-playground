@@ -1,3 +1,1 @@
-import { useShoppingCart } from "./useShoppingCart";
-
-export { useShoppingCart };
+export { useShoppingCart } from "./useShoppingCart";
