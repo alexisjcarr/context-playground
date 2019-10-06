@@ -45,7 +45,7 @@ script:
   ## variable by default and apply
   ## this to the run.
   - npm run cypress
-  - npm run coveralls
+  ## - npm run coveralls
   ## alternatively we could specify
   ## a specific record key to use
   ## like this without having to
