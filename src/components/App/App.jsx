@@ -1,14 +1,14 @@
 import React from "react";
 import { Route } from "react-router-dom";
 
-import Navigation from "./components/Navigation";
-import Products from "./components/Products";
-import ShoppingCart from "./components/ShoppingCart";
+import Navigation from "../Navigation";
+import Products from "../Products";
+import ShoppingCart from "../ShoppingCart";
 
-import data from "./data";
+import data from "../../data";
 
-import { useShoppingCart } from "./hooks";
-import { ProductContext, CartContext } from "./contexts";
+import { useShoppingCart } from "../../hooks";
+import { ProductContext, CartContext } from "../../contexts";
 
 const App = () => {
   const [products, cart, addItem, removeItem] = useShoppingCart(data);

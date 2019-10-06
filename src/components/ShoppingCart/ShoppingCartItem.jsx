@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { ProductContext } from "../contexts";
+import { ProductContext } from "../../contexts";
 
 const Item = ({ image, title, price, id }) => {
   const { removeItem } = useContext(ProductContext);
