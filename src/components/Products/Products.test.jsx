@@ -4,11 +4,11 @@ import "@testing-library/jest-dom/extend-expect";
 
 import { beforeEachHelper, afterEachHelper } from "../../utils";
 
-import Products from ".";
+import Products from "./Products";
 
 describe("<Products />", () => {
   beforeEach(() => beforeEachHelper());
-  afterEach(() => afterEachHelper());;
+  afterEach(() => afterEachHelper());
 
   it("matches snapshot", () => {
     expect(render(<Products />)).toMatchSnapshot();
