@@ -1,11 +1,7 @@
-## our React TodoMVC app is written
-## in node so thats what we select.
-## Cypress is agnostic to your apps
-## backend language though.
 language: node_js
 
 node_js:
-  - 10
+  - stable
 
 addons:
   apt:
@@ -49,6 +45,7 @@ script:
   ## variable by default and apply
   ## this to the run.
   - npm run cypress
+  - npm run coveralls
   ## alternatively we could specify
   ## a specific record key to use
   ## like this without having to
