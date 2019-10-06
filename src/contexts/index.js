@@ -1,4 +1,2 @@
-import { ProductContext } from "./ProductContext";
-import { CartContext } from "./CartContext";
-
-export { ProductContext, CartContext };
+export { ProductContext } from "./ProductContext";
+export { CartContext } from "./CartContext";
