@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --coverage",
     "eject": "react-scripts eject",
-    "cypress": "node_modules/.bin/cypress run --record",
+    "cypress": "node_modules/.bin/cypress run",
     "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
   },
   "eslintConfig": {
