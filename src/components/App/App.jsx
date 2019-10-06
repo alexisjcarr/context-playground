@@ -12,6 +12,7 @@ import { ProductContext, CartContext } from "../../contexts";
 
 const App = () => {
   const [products, cart, addItem, removeItem] = useShoppingCart(data);
+  
   return (
     <div className="App">
       <ProductContext.Provider value={{ products, addItem, removeItem }}>
